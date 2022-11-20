@@ -2,6 +2,24 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Setup Your Project
+
+### Clone this repository
+
+
+### Change remote url to your new repository:
+
+`git remote set-url origin git@github.com:username/repo-name.git`
+
+
+### Change WORKDIR variable in Dockerfile
+
+
+### Change name of the project name in package.json and package-lock.json. 
+
+Name of the project will be same with WORKDIR 
+
+
 ## Available Scripts
 
 In the project directory, you can run:
