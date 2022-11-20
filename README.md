@@ -10,6 +10,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 `git remote set-url origin git@github.com:username/repo-name.git`
 
+`git branch -M master`
+
+`git push -u origin master`
+
 
 ### Change WORKDIR variable in Dockerfile
 
@@ -17,6 +21,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Create an docker image and start container:
 
 `docker build -t recepdemrci/react-app:base .`
+
 `docker run -p 3000:3000 -d recepdemrci/react-app:base`
 
 
