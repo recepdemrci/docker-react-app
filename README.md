@@ -6,18 +6,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Clone this repository
 
-
 ### Change remote url to your new repository:
 
 `git remote set-url origin git@github.com:username/repo-name.git`
 
 
-### Change WORKDIR variable in Dockerfile
+### Change WORKDIR variable in Dockerfile
 
+### Change name of the project name in package.json and package-lock.json: Name of the project will be same with WORKDIR 
+### Create an docker image and start container:
 
-### Change name of the project name in package.json and package-lock.json. 
-
-Name of the project will be same with WORKDIR 
+`docker build -t recepdemrci/react-app:base .`
+`docker run -p 3000:3000 -d recepdemrci/react-app:base`
 
 
 ## Available Scripts
